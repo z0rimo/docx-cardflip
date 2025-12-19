@@ -163,6 +163,7 @@ html, body, #root {
   text-align: center;
   overflow: auto;
   padding-right: 6px;
+  min-height: 0;
 }
 
 .fc-text::-webkit-scrollbar {
@@ -180,6 +181,10 @@ html, body, #root {
   font-weight: 800;
   color: #1e293b;
   margin-bottom: 12px;
+  white-space: pre-line;      /* \n 줄바꿈 반영 */
+  overflow-wrap: anywhere;    /* 매우 긴 토큰도 줄바꿈 */
+  word-break: keep-all;       /* 한국어 가독성 유지 */
+  line-height: 1.45;          /* 줄간격 */
 }
 
 .fc-sub-q {

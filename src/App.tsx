@@ -181,7 +181,6 @@ export default function FlashcardApp() {
               <div className="fc-face fc-front">
                 <div className="fc-face-layout">
                   <span className="fc-tag fc-tag--q">QUESTION {currentIndex + 1}</span>
-
                   <div className="fc-text">
                     <p className="fc-q">{card.question}</p>
                     {card.subQuestion && (
