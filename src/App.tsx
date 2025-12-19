@@ -17,17 +17,16 @@ export default function FlashcardApp() {
   const [showExplanation, setShowExplanation] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
-
+  
   // swipe
   const [touchStart, setTouchStart] = useState<number | null>(null);
   const [touchEnd, setTouchEnd] = useState<number | null>(null);
   const minSwipeDistance = 50;
 
   // end modal
-  const [showEndModal, setShowEndModal] = useState(false);
+  const [, setShowEndModal] = useState(false);
 
-  // goto (arrow 눌러서 입력창 표시)
-  const [gotoOpen, setGotoOpen] = useState(false);
+  const [, setGotoOpen] = useState(false);
   const [gotoValue, setGotoValue] = useState('');
 
   useEffect(() => {
@@ -148,7 +147,6 @@ export default function FlashcardApp() {
             <div className="fc-progress-bar-fill" style={{ width: `${progress}%` }} />
           </div>
         </div>
-
         {/* 카드 */}
         <div className="fc-card-area">
           <div className="fc-card-perspective">
@@ -181,11 +179,9 @@ export default function FlashcardApp() {
                       </div>
                     )}
                   </div>
-
                   <span className="fc-hint fc-hint--front">탭하여 뒤집기</span>
                 </div>
               </div>
-
               {/* BACK */}
               <div className="fc-face fc-back">
                 <div className="fc-face-layout">
@@ -201,7 +197,6 @@ export default function FlashcardApp() {
             </div>
           </div>
         </div>
-
         {/* 하단: 컨트롤 + goto (버튼 아래) */}
         <div className="fc-bottom">
           {/* 해설 */}
@@ -221,7 +216,6 @@ export default function FlashcardApp() {
               {showExplanation && <div className="fc-explain-box">{card.explanation}</div>}
             </div>
           )}
-
           {/* 버튼 3개 */}
           <div className="fc-controls">
             <button
@@ -233,11 +227,9 @@ export default function FlashcardApp() {
             >
               <ChevronLeft size={24} />
             </button>
-
             <button onClick={requestReset} className="fc-round-btn" type="button" aria-label="Reset">
               <RotateCw size={20} />
             </button>
-
             <button
               onClick={requestNext}
               disabled={currentIndex === total - 1}
@@ -248,7 +240,6 @@ export default function FlashcardApp() {
               <ChevronRight size={24} />
             </button>
           </div>
-
           {/* goto row (버튼 아래) */}
           <div className="fc-goto-row">
             <div className="fc-goto-left">
