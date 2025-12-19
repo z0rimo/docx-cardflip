@@ -117,17 +117,6 @@ export default function FlashcardApp() {
     if (distance < -minSwipeDistance) requestPrev(); // swipe right => prev
   };
 
-  const confirmRestartYes = () => {
-    setShowEndModal(false);
-    setCurrentIndex(0);
-    resetViewState();
-    closeGoto();
-  };
-
-  const confirmRestartNo = () => {
-    setShowEndModal(false);
-  };
-
   if (isLoading) return <div className="fc-loading">로딩 중...</div>;
   if (loadError) return <div className="fc-loading">{loadError}</div>;
   if (!cards[currentIndex]) return <div className="fc-loading">카드가 없습니다.</div>;
