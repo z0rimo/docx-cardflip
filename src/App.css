@@ -159,7 +159,7 @@ html, body, #root {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   text-align: center;
   overflow: auto;
   padding-right: 6px;
@@ -183,10 +183,11 @@ html, body, #root {
   color: #1e293b;
   margin-top: 0;
   margin-bottom: 12px;
-  white-space: pre-line;      /* \n 줄바꿈 반영 */
-  overflow-wrap: anywhere;    /* 매우 긴 토큰도 줄바꿈 */
-  word-break: keep-all;       /* 한국어 가독성 유지 */
-  line-height: 1.45;          /* 줄간격 */
+  white-space: pre-line;      
+  overflow-wrap: anywhere;
+  word-break: keep-all;      
+  line-height: 1.45;
+  flex-shrink: 0;
 }
 
 .fc-sub-q {
@@ -215,6 +216,7 @@ html, body, #root {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  flex-shrink: 0;
 }
 
 .fc-option {
