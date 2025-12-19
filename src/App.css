@@ -92,6 +92,10 @@
   transform: rotateY(180deg);
 }
 
+.fc-card.no-flip-anim {
+  transition: none !important;
+}
+
 /* faces */
 .fc-face {
   position: absolute;

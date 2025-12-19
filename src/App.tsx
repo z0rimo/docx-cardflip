@@ -17,7 +17,8 @@ export default function FlashcardApp() {
   const [showExplanation, setShowExplanation] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
-  
+  const [disableFlipAnim, setDisableFlipAnim] = useState(false);
+
   // swipe
   const [touchStart, setTouchStart] = useState<number | null>(null);
   const [touchEnd, setTouchEnd] = useState<number | null>(null);
@@ -61,6 +62,18 @@ export default function FlashcardApp() {
     setGotoValue('');
   };
 
+  const goToIndexInstantFront = (nextIndex: number) => {
+    setDisableFlipAnim(true);
+
+    setIsFlipped(false);
+    setShowExplanation(false);
+    setCurrentIndex(nextIndex);
+
+    requestAnimationFrame(() => {
+      setDisableFlipAnim(false);
+    });
+  };
+
   const requestNext = () => {
     if (total <= 0) return;
 
@@ -69,18 +82,34 @@ export default function FlashcardApp() {
       return;
     }
 
-    setCurrentIndex((v) => v + 1);
+    const nextIndex = currentIndex + 1;
+    if (isFlipped) {
+      goToIndexInstantFront(nextIndex);
+      closeGoto();
+      return;
+    }
+
+    setCurrentIndex(nextIndex);
     resetViewState();
     closeGoto();
   };
 
   const requestPrev = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex((v) => v - 1);
-      resetViewState();
+    if (currentIndex <= 0) return;
+
+    const prevIndex = currentIndex - 1;
+
+    if (isFlipped) {
+      goToIndexInstantFront(prevIndex);
       closeGoto();
+      return;
     }
+
+    setCurrentIndex(prevIndex);
+    resetViewState();
+    closeGoto();
   };
+
 
   const requestReset = () => {
     setCurrentIndex(0);
@@ -140,7 +169,7 @@ export default function FlashcardApp() {
         <div className="fc-card-area">
           <div className="fc-card-perspective">
             <div
-              className={`fc-card ${isFlipped ? 'is-flipped' : ''}`}
+              className={`fc-card ${isFlipped ? 'is-flipped' : ''} ${disableFlipAnim ? 'no-flip-anim' : ''}`}
               onClick={() => setIsFlipped((v) => !v)}
               onTouchStart={onTouchStart}
               onTouchMove={onTouchMove}
@@ -151,7 +180,7 @@ export default function FlashcardApp() {
               {/* FRONT */}
               <div className="fc-face fc-front">
                 <div className="fc-face-layout">
-                  <span className="fc-tag fc-tag--q">QUESTION {currentIndex+1}</span>
+                  <span className="fc-tag fc-tag--q">QUESTION {currentIndex + 1}</span>
 
                   <div className="fc-text">
                     <p className="fc-q">{card.question}</p>
@@ -245,7 +274,7 @@ export default function FlashcardApp() {
                   max={total}
                   value={gotoValue}
                   onChange={(e) => setGotoValue(e.target.value)}
-                  onKeyDown={(e) => { 
+                  onKeyDown={(e) => {
                     if (e.key === 'Enter') handleGotoCommit();
                   }}
                   placeholder=""
