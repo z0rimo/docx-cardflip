@@ -33,7 +33,7 @@ export default function FlashcardApp() {
     const loadCards = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch('/flashcards.json');
+        const response = await fetch('./flashcards.json');
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
         const valid = (data as Card[]).filter((c) => c?.question && c?.answer);
