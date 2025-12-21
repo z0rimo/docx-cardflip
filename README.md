@@ -1,74 +1,60 @@
-# React + TypeScript + Vite
+# Docx-CardFlip (Flashcard App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+이 프로젝트는 JSON 데이터를 기반으로 플래시카드를 학습할 수 있는 깔끔하고 직관적인 웹 앱입니다. 모바일 환경에 최적화되어 있으며, 스와이프 제스처와 카드 뒤집기 애니메이션을 제공합니다.
 
-Currently, two official plugins are available:
+[Live Demo 보기](https://z0rimo.github.io/docx-cardflip/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ 주요 기능
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **대화형 플래시카드**: 클릭/탭으로 앞뒤를 전환하며 학습할 수 있습니다.
+- **모바일 최적화**: 스와이프(좌/우)를 통해 이전/다음 카드로 편리하게 이동합니다.
+- **해설 모드**: 필요한 경우 '해설 보기' 버튼을 통해 정답에 대한 추가 설명을 확인할 수 있습니다.
+- **빠른 이동 (Jump to)**: 특정 번호의 카드로 바로 이동할 수 있는 입력 창을 지원합니다.
+- **진행도 표시**: 상단 프로그레스 바를 통해 학습량을 실시간으로 확인합니다.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 사용 방법 (카드 데이터 수정)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
+본인만의 퀴즈 데이터를 넣으려면 `public/flashcards.json` 파일을 수정하면 됩니다.
+
+### 데이터 형식 (Example)
+```json
+[
   {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+    "question": "React의 핵심 원칙은?",
+    "subQuestion": "데이터 흐름에 관한 질문입니다.",
+    "answer": "단방향 데이터 바인딩",
+    "explanation": "부모 컴포넌트에서 자식 컴포넌트로 데이터가 흐르는 구조를 가집니다.",
+    "options": ["1. 단방향", "2. 양방향", "3. 무방향"]
+  }
+]
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 시작하기
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
-# docx-cardfilp
+git clone [https://github.com/z0rimo/docx-cardflip.git](https://github.com/z0rimo/docx-cardflip.git)
+```
+
+패키지 설치
+```
+npm install
+```
+
+로컬 실행
+```
+npm run dev
+```
+
+---
+
+## 기술 스택
+- **Framework**: React (TypeScript)
+- **Styling**: CSS3 (3D Perspective, Flexbox, Clamp)
+- **Icons**: Lucide-React
+- **Deployment**: GitHub Pages
