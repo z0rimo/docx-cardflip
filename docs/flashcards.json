@@ -27,7 +27,7 @@
       "A. 리사이즈 & 크롭",
       "B. 가로크기는 512",
       "C. 워 터 마크 삽입",
-      "D. 우측 상단을 기준 가로 11 픽셀，세로 10픽셀 이동하여 워터마크를 찍음"
+      "D. 우측 상단을 기준 가로 11 픽셀,세로 10픽셀 이동하여 워터마크를 찍음"
     ],
     "answer": "A. 리사이즈 & 크롭",
     "subQuestion": ""
@@ -236,9 +236,9 @@
       "A. 쿼리를 통해 DB 및 User 생성이 가능하다",
       "B. 쿼리를 통해 DB 생성만 가능하다",
       "C. 쿼리를 통해 User 생성만 가능하다",
-      "D. 쿼리를 통해 DB와 USER을 생성 하는 것은 불가능하며，콘솔을 통해 기능을 제공하고 있다."
+      "D. 쿼리를 통해 DB와 USER을 생성 하는 것은 불가능하며,콘솔을 통해 기능을 제공하고 있다."
     ],
-    "answer": "D. 쿼리를 통해 DB와 USER을 생성 하는 것은 불가능하며，콘솔을 통해 기능을 제공하고 있다.",
+    "answer": "D. 쿼리를 통해 DB와 USER을 생성 하는 것은 불가능하며,콘솔을 통해 기능을 제공하고 있다.",
     "subQuestion": ""
   },
   {
@@ -275,9 +275,9 @@
     "subQuestion": ""
   },
   {
-    "question": "다음 중，네이버클라우드플랫폼 Cloud DB for MS-SQL의 Config group에 대한 설명 중 잘못된 것을 (모두) 고르시오.",
+    "question": "다음 중,네이버클라우드플랫폼 Cloud DB for MS-SQL의 Config group에 대한 설명 중 잘못된 것을 (모두) 고르시오.",
     "options": [
-      "A. Cloud DB 서비스에 적용 가능한 Config group을 생성，변경，삭제할 수 있다.",
+      "A. Cloud DB 서비스에 적용 가능한 Config group을 생성,변경,삭제할 수 있다.",
       "B. 기본 제공되는 Config group은 변경 및 삭제할 수 없다.",
       "C. 삭제하려는 Config group이 적용된 서버가 있더라도 삭제가 가능하다.",
       "D. Principal DB와 Mirror DB에 서로 다른 Config group 값이 적용 가능하다"
@@ -286,9 +286,9 @@
     "subQuestion": ""
   },
   {
-    "question": "다음 중，네이버클라우드플랫폼 VPC 환경에서의 Cloud Insight에 대한 설 명 중 옳지 않은 것은?",
+    "question": "다음 중,네이버클라우드플랫폼 VPC 환경에서의 Cloud Insight에 대한 설 명 중 옳지 않은 것은?",
     "options": [
-      "A. 상품들의 성능 지표를 통합 관리하고 장애 발생 시 담당자에게 장애 ， 정보를 신속히 전달할 수 있는 모니터링 서비스",
+      "A. 상품들의 성능 지표를 통합 관리하고 장애 발생 시 담당자에게 장애 , 정보를 신속히 전달할 수 있는 모니터링 서비스",
       "B. 수집된 네이버 클라우드 플랫폼 및 사용자 애플리케이션의 성능 지표를 하나의 Dashboard로 시각화하여 정보를 보여준다",
       "C. Sub Account는 Cloud Insight을 이용할 방법이 없다.",
       "D. Cloud Insightb 수집한 성능 지표를 최대 1 년간보관한다."
@@ -334,10 +334,10 @@
     "options": [
       "A. Cloud DB 상품은 고가용성 지 원을 설정할 경우, Active master DB와 Standby master DB, 총 2대의 서버가 기본 생성된다.",
       "B. 슬레이브 에는 데이터베이스의 읽기부하 분산을 위해 생성하는 복제 DB로 한대 단위로 생성된다.",
-      "C. 기본 제공되는 50GB의 디스크는 운영체제를 위한 디스크로 추가 증설이 가능하고，이용 요금에 포함되지 않음",
+      "C. 기본 제공되는 50GB의 디스크는 운영체제를 위한 디스크로 추가 증설이 가능하고,이용 요금에 포함되지 않음",
       "D. DB 데이터를 저장하기 위한 데이터 스토리지는 별도로 사용량에 따른 시간 요금으로 과금"
     ],
-    "answer": "C. 기본 제공되는 50GB의 디스크는 운영체제를 위한 디스크로 추가 증설이 가능하고，이용 요금에 포함되지 않음",
+    "answer": "C. 기본 제공되는 50GB의 디스크는 운영체제를 위한 디스크로 추가 증설이 가능하고,이용 요금에 포함되지 않음",
     "subQuestion": ""
   },
   {
@@ -363,7 +363,7 @@
     "subQuestion": ""
   },
   {
-    "question": "다음 중，Cloud Activity Tracer에 대한 설 명 중 옳지 않은 것은?",
+    "question": "다음 중,Cloud Activity Tracer에 대한 설 명 중 옳지 않은 것은?",
     "options": [
       "A. Cloud Activity Tracer는 155개 종류의 네이버클라우드플랫폼 계정 활동 로그를 자동으로 수집하고 기록합니다.",
       "B. Cloud Activity Tracer를 사용하기 위해서는 에이전트 설치가 필요합니다.",
@@ -379,13 +379,13 @@
       "A. 매일 자동으로 DB 백업이 진행되며 최대 6개월까지 보관됩니다.",
       "B. 최대 4대까지 복제 슬레이브 DB 확장이 가능하며 읽기 부하 분산이 가능합니다.",
       "C. 장애 또는 이벤트 발생시 사용자의 메일과 SMS로 빠르게 장애 현황을 알려드립니다.",
-      "D. 기본 10GB 데이터 스토리지를 제공하며， 10GB 단위로 3TB까지 자동으로 용량이 증가합니다."
+      "D. 기본 10GB 데이터 스토리지를 제공하며, 10GB 단위로 3TB까지 자동으로 용량이 증가합니다."
     ],
     "answer": "C. 장애 또는 이벤트 발생시 사용자의 메일과 SMS로 빠르게 장애 현황을 알려드립니다.",
     "subQuestion": ""
   },
   {
-    "question": "서비스 페이지 또는 웹 에 접속하는 실 사용자 데이터를 (PC ) 수집하여 국가，브라우저， Device 별로 웹 페이지 속도와 PV Count를 분석해주는 네이버클라우드 플랫폼서비스는 무엇인지 고르시오.",
+    "question": "서비스 페이지 또는 웹 에 접속하는 실 사용자 데이터를 (PC ) 수집하여 국가,브라우저, Device 별로 웹 페이지 속도와 PV Count를 분석해주는 네이버클라우드 플랫폼서비스는 무엇인지 고르시오.",
     "options": [
       "A. ELSA",
       "B. RUA",
@@ -407,7 +407,7 @@
     "subQuestion": ""
   },
   {
-    "question": "다음 중，WMS에서 측정 가능한 국가가 아닌 곳은?",
+    "question": "다음 중,WMS에서 측정 가능한 국가가 아닌 곳은?",
     "options": [
       "A. 가나",
       "B. 미국",
@@ -432,11 +432,11 @@
     "question": "Cloud DB for MySQL의 백업 기능에 대해 잘못 설명한 것은?",
     "options": [
       "A. 백업 파일은 별도 데이터 스토리지에 저장됩니다.",
-      "B. 사용자가 백업 시간을 설정할 수 없으므로，임의의 시간에 백업이 시작됩니다.",
+      "B. 사용자가 백업 시간을 설정할 수 없으므로,임의의 시간에 백업이 시작됩니다.",
       "C. 백업 완료 시점 기준의 데이터로 복구가 가능합니다.",
       "D. Stand Alone 서버도 DB백 업 및 복구 기능이 사용가능합니다."
     ],
-    "answer": "B. 사용자가 백업 시간을 설정할 수 없으므로，임의의 시간에 백업이 시작됩니다.",
+    "answer": "B. 사용자가 백업 시간을 설정할 수 없으므로,임의의 시간에 백업이 시작됩니다.",
     "subQuestion": ""
   },
   {
@@ -464,7 +464,7 @@
   {
     "question": "네이버 클라우드 플랫폼의 VPC 환경에서 ACG에 대한 설명으로 틀린것은 무엇인가요?",
     "options": [
-      "A. 서버에 연결되어 있는 맵핑 정보를 변경할 수 있다，",
+      "A. 서버에 연결되어 있는 맵핑 정보를 변경할 수 있다,",
       "B. VPC에 의존적이다",
       "C. Write List 방식의 방화벽이다.",
       "D. Inbound에 대해서만 룰 적용이 가능하다"
@@ -488,10 +488,10 @@
     "options": [
       "A. Target Group은 하나 이상의 등록된 대상에 요청을 분배하는데 사용됩니다",
       "B. Target Group은 Zone과 Subnet에 상관없이 동일 VPC내 모든 대상(서버)을 등록할 수 있습니다.",
-      "C. Target Group은 편의를 위해 존재하는 상품으로，Target Group 생성 없이도 로드 밸런서에 서버를 연결(bind)할 수 있습니다.",
+      "C. Target Group은 편의를 위해 존재하는 상품으로,Target Group 생성 없이도 로드 밸런서에 서버를 연결(bind)할 수 있습니다.",
       "D. Target Group은 등록 대상에 대하여 정의한 헬스체크를 수행합니다."
     ],
-    "answer": "C. Target Group은 편의를 위해 존재하는 상품으로，Target Group 생성 없이도",
+    "answer": "Target Group은 편의를 위해 존재하는 상품으로, Target Group 생성 없이도 로드 밸런서에 서버를 연결(bind)할 수 있습니다.",
     "subQuestion": ""
   },
   {
@@ -550,10 +550,10 @@
     "subQuestion": ""
   },
   {
-    "question": "다음 중，Cloud DB for MS-SQL 대한 설명 중 틀린 것을 고르시오.",
+    "question": "다음 중,Cloud DB for MS-SQL 대한 설명 중 틀린 것을 고르시오.",
     "options": [
-      "A. Cloud DB for MSSQL 상품의 경우， Standard type과 High-memory 타입을 선택할 수 있습니다.",
-      "B. 데이터 스토리지는 기본 10GB가 자동 할당되며，10GB 단위로 2TB까지 자동 증가합니다.",
+      "A. Cloud DB for MSSQL 상품의 경우, Standard type과 High-memory 타입을 선택할 수 있습니다.",
+      "B. 데이터 스토리지는 기본 10GB가 자동 할당되며,10GB 단위로 2TB까지 자동 증가합니다.",
       "C. Cloud DB for MSSQL 상품은 Standard 타입에서 High-memory 타입으로 스펙업이 가능합니다",
       "D. Cloud DB for MSSQL 상품은 Standalone으로 생성 시, 서버 가 1 대만 생성됩니다."
     ],
@@ -565,9 +565,10 @@
     "options": [
       "A. Master: 각 DB 서비스의 Master DB 역할을 수행중인 DB Server입니다",
       "B. Standby Master: 고가용성을 선택할 경우 Master DB 장애시 생성되며 자동으로 Master로 변경됩니다.",
-      "C. Stand Alone : 고가용성을 선 택하지 않을 경 우 Stand Alone으로 1대만 생성되며，장애시 자동 복구 또는 백업을 지원하"
+      "C. Stand Alone : 고가용성을 선 택하지 않을 경 우 Stand Alone으로 1대만 생성되며,장애시 자동 복구 또는 백업을 지원하지 않습니다. 가급적 개발 DB로 사용을 권장합니다.",
+      "D. Recovery : 백업으로부터 복구할 경우 Recovery 역할로 생성되며, 데이터복구를 위해 읽기 전용으로 제공됩니다."
     ],
-    "answer": "UNKNOWN",
+    "answer": "B. Standby Master: 고가용성을 선택할 경우 Master DB 장애시 생성되며 자동으로 Master로 변경됩니다.",
     "subQuestion": ""
   },
   {
@@ -604,13 +605,14 @@
     "subQuestion": ""
   },
   {
-    "question": "된다.",
+    "question": "다음중 Cloud DB for MySQL 상품 특징 이 아닌것은?",
     "options": [
+      "A. Cloud DB 상품은 고가용성 지원을 설정할 경우, Active master DB와 Standby master DB, 총 2대의 서버가 기본 생성된다.",
       "B. 슬레이브 매는 데이터베이스의 읽기부하 분산을 위해 생성하는 복제 DB로 한대 단위로 생성된다.",
-      "C. 기본 제공되는 100GB의 디스크는 운영체제를 위한 디스크로 추가 증설이 가능하고，이용 요금에 포함되지 않음",
+      "C. 기본 제공되는 100GB의 디스크는 운영체제를 위한 디스크로 추가 증설이 가능하고,이용 요금에 포함되지 않음",
       "D. DB 데이터를 저장하기 위한 데이터 스토리지는 별도로 사용량에 따른 시간 요금으로 과금"
     ],
-    "answer": "C. 기본 제공되는 100GB의 디스크는 운영체제를 위한 디스크로 추가 증설이 가능하고，이용 요금에 포함되지 않음",
+    "answer": "C. 기본 제공되는 100GB의 디스크는 운영체제를 위한 디스크로 추가 증설이 가능하고,이용 요금에 포함되지 않음",
     "subQuestion": ""
   },
   {
@@ -636,7 +638,7 @@
     "subQuestion": ""
   },
   {
-    "question": "다음 중，Cloud DB for Redis의 백업 데이터 최대 보관일은?",
+    "question": "다음 중,Cloud DB for Redis의 백업 데이터 최대 보관일은?",
     "options": [
       "A. 5일",
       "B. 7일",
@@ -647,7 +649,7 @@
     "subQuestion": ""
   },
   {
-    "question": "다음 중，CLA와 연계된 서비스는?",
+    "question": "다음 중,CLA와 연계된 서비스는?",
     "options": [
       "A. Object Storage",
       "B. File Storage",
@@ -660,7 +662,7 @@
   {
     "question": "네이버 클라우드 플랫폼 GRM (Global Route Manager) 에 대한 설 명으로 잘못된 것 을 고르시오.",
     "options": [
-      "A. IP，도메인 리소스에 대한 분기가 가능하다",
+      "A. IP,도메인 리소스에 대한 분기가 가능하다",
       "B. 도메인 리소스에 대한 헬스체크 설정이 가능하다",
       "C. 헬스체크에 대한 로그는 제공하지 않는다.",
       "D. GRM 리소스 타입은 동일하게 설정해야 한다. (IP와 도메인을 같이 GRM에 바인드할 수 없다.)"
@@ -680,7 +682,7 @@
     "subQuestion": ""
   },
   {
-    "question": "GRM에서 제공하는 메소드 중 다음이 지칭하는 것을 고르시오. \"사용자의 캐시 DNS 를 기준으로 대륙，혹은 구간 단위 분기가 가능하며，사용자가 직접 CIDR Map 구성도 가 능하다.\"",
+    "question": "GRM에서 제공하는 메소드 중 다음이 지칭하는 것을 고르시오. ",
     "options": [
       "A. Round Robin",
       "B. Weighted",
@@ -688,7 +690,7 @@
       "D. GeoLocation"
     ],
     "answer": "D. GeoLocation",
-    "subQuestion": ""
+    "subQuestion": "사용자의 캐시 DNS 를 기준으로 대륙,혹은 구간 단위 분기가 가능하며,사용자가 직접 CIDR Map 구성도 가 능하다."
   },
   {
     "question": "VOD Transcoder에 대한 설명 중 틀린 것은?",
@@ -724,7 +726,7 @@
     "subQuestion": ""
   },
   {
-    "question": "다음의 설명 중 \"이것\"이 지칭하는 상품은? \"이것을 이용하면 네이버 클라우드 플 랫폼 Classic 환경에서 다수 VM에 공인IP를 할 당하지 않고 단일 SNAT IP를 쉐어해서 사용할 수 있다.\"",
+    "question": "다음의 설명 중 \"이것\"이 지칭하는 상품은?",
     "options": [
       "A. 공인 IP",
       "B. NAT Gateway",
@@ -732,7 +734,7 @@
       "D. GRM"
     ],
     "answer": "B. NAT Gateway",
-    "subQuestion": ""
+    "subQuestion": "이것을 이용하면 네이버 클라우드 플랫폼 Classic 환경에서 다수 VM에 공인IP를 할 당하지 않고 단일 SNAT IP를 쉐어해서 사용할 수 있다."
   },
   {
     "question": "네이버 클라우드 플랫폼 Live Station에 대한 설 명으로 잘못된 것을 고르시오",
@@ -746,7 +748,7 @@
     "subQuestion": ""
   },
   {
-    "question": "다음 중，WMS에서 '입력한 로그를 포함 하고 있는 모든 로그를 필터링'하고 싶을 때 선택하는 필터링 옵션은?",
+    "question": "다음 중,WMS에서 '입력한 로그를 포함 하고 있는 모든 로그를 필터링'하고 싶을 때 선택하는 필터링 옵션은?",
     "options": [
       "A. url",
       "B. urlprefix",
@@ -768,7 +770,7 @@
     "subQuestion": ""
   },
   {
-    "question": "다음 중，MS-SQL의 default 접속포트는?",
+    "question": "다음 중,MS-SQL의 default 접속포트는?",
     "options": [
       "A. 1433",
       "B. 3389",
@@ -779,7 +781,7 @@
     "subQuestion": ""
   },
   {
-    "question": "다음 중，CLA (Cloud Log Analytics)에 대한 설명으로 잘못된 것은?",
+    "question": "다음 중,CLA (Cloud Log Analytics)에 대한 설명으로 잘못된 것은?",
     "options": [
       "A. Cloud DB for MySQL 로그, 아파치 로그등이 템플릿으로 제공됩니다.",
       "B. 고객의 데이터는 논리적으로 분리된 개별 저장소에 2개 이상의 복제본으로 분산 저장됩니다.",
@@ -793,15 +795,15 @@
     "question": "Cloud DB for MySQL 상품의 백업에 관련된 내용 중 틀린 것은?",
     "options": [
       "A. Stand Alone 서버도 DB 백업 에 사용할 수 있습니다.",
-      "B. 기본적인 백업이 하루 한번씩 매일 수행 되며，사용자 설정에 따라 최대 30일까지 보관할 수 있습니다.",
-      "C. backup 파일 복원 요청시 신규 VM이 생성되며，DB 서버는 Recovery 모드로 복원되며 데이터 조회만 가능합니다.",
+      "B. 기본적인 백업이 하루 한번씩 매일 수행 되며,사용자 설정에 따라 최대 30일까지 보관할 수 있습니다.",
+      "C. backup 파일 복원 요청시 신규 VM이 생성되며,DB 서버는 Recovery 모드로 복원되며 데이터 조회만 가능합니다.",
       "D. 손쉬운 backup방법은 백업 요청서를 작성하여 신청하고 서버에 Agent를 설치하면 됩니다"
     ],
-    "answer": "D. 손쉬운 backup방법은 백업 요청서를 작성하여 신청하고 서버에 Agent를",
+    "answer": "D. 손쉬운 backup방법은 백업 요청서를 작성하여 신청하고 서버에 Agent를 설치하면 됩니다",
     "subQuestion": ""
   },
   {
-    "question": "설치하면 됩니다 별도의 설정 없이 클라이언트의 IP를 확인할 수 있는 Load Balancer는 무엇인가?",
+    "question": "별도의 설정 없이 클라이언트의 IP를 확인할 수 있는 Load Balancer는 무엇인가?",
     "options": [
       "A. Classic Load Balancer",
       "B. Network Load Balancer",
@@ -893,14 +895,14 @@
     "options": [
       "A. 다양한 유형의 서버타입을 제공하여 서비스 중에 한 번의 재시작만으로 서버 타입을 변경할 수 있습니다.",
       "B. 네이버 서비스에서 안정성이 검증된 버전을 제공합니다.",
-      "C. 기본 10GB 데이터 스토리지를 제공하며， 10GB 단위로 6TB까지 자동으로 용량이 증가합니다.",
+      "C. 기본 10GB 데이터 스토리지를 제공하며, 10GB 단위로 6TB까지 자동으로 용량이 증가합니다.",
       "D. 마스터DB가 스탠바이DB로 Fail-over할 때 DNS 방식으로이중화를제공함으로써 어플리케이션의 변경이 필요합니다."
     ],
     "answer": "D. 마스터DB가 스탠바이DB로 Fail-over할 때 DNS 방식으로이중화를제공함으로써 어플리케이션의 변경이 필요합니다.",
     "subQuestion": ""
   },
   {
-    "question": "다음 중，Cloud DB for MySQL에 제공되는 High-memory 타입의 최고 VM사양은?",
+    "question": "다음 중,Cloud DB for MySQL에 제공되는 High-memory 타입의 최고 VM사양은?",
     "options": [
       "A. 16vCPU, 128GB",
       "B. 32vCPU, 128GB",
@@ -1219,7 +1221,7 @@
     "subQuestion": ""
   },
   {
-    "question": "다음의 설명이 지칭하는 용어는? \"CDN 캐시 서버（엣지서버）에서 케싱된 데이터를 지우는 기능\"",
+    "question": "다음의 설명이 지칭하는 용어는?",
     "options": [
       "A. HIT",
       "B. Streaming",
@@ -1227,7 +1229,7 @@
       "D. Cache Expiry"
     ],
     "answer": "C. Purge",
-    "subQuestion": ""
+    "subQuestion": "CDN 캐시 서버（엣지서버）에서 케싱된 데이터를 지우는 기능"
   },
   {
     "question": "Video Player 에서 설정 가능한 기능이 아닌 것은 무엇인가?",
@@ -1307,7 +1309,7 @@
     "subQuestion": ""
   },
   {
-    "question": "다음의 설명 중 \"이것\"이 지칭하는 상품은? \"이것을 이용하면 네이버 클라우드 플랫폼 Classic 환경에서 다수 VM 에 공인 IP 를 할당하지 않고 단일 SNAT IP 를 쉐어해서 사용할 수 있다.\"",
+    "question": "다음의 설명 중 \"이것\"이 지칭하는 상품은?",
     "options": [
       "A. 공인 IP",
       "B. NAT Gateway",
@@ -1315,10 +1317,10 @@
       "D. GRM"
     ],
     "answer": "B. NAT Gateway",
-    "subQuestion": ""
+    "subQuestion": "이것을 이용하면 네이버 클라우드 플랫폼 Classic 환경에서 다수 VM 에 공인 IP 를 할당하지 않고 단일 SNAT IP 를 쉐어해서 사용할 수 있다."
   },
   {
-    "question": "VPC 생성시 생성 가능한 IP 주소 범위가 아닌 것은 무엇인가?",
+    "question": "VPC 생성시 생성 가능한 IP 주소 범위가 아닌 것을 모두 고르시오.",
     "options": [
       "A. 10.0.0.0/12",
       "B. 192.168.0.0/24",
