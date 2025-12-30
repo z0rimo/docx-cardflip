@@ -23,9 +23,10 @@ const SETS: SetItem[] = [
   { id: "ncp207", title: "NCP 207", fileName: "ncp207.json", desc: "Troubleshooting" },
 ];
 
-function buildUrl(fileName: string) {
-  return `${import.meta.env.BASE_URL}${fileName}`;
+function buildUrl(setId: string) {
+  return new URL(`${setId}.json`, import.meta.env.BASE_URL).toString();
 }
+
 
 function FlashcardPlayer({
   title,
@@ -316,7 +317,7 @@ export default function App() {
     return (
       <FlashcardPlayer
         title={selected.title}
-        dataUrl={buildUrl(selected.fileName)}
+        dataUrl={buildUrl(selected.id)}
         onBack={() => setSelected(null)}
       />
     );
