@@ -23,10 +23,12 @@ const SETS: SetItem[] = [
   { id: "ncp207", title: "NCP 207", fileName: "ncp207.json", desc: "Troubleshooting" },
 ];
 
-function buildUrl(setId: string) {
-  return new URL(`${setId}.json`, import.meta.env.BASE_URL).toString();
+function buildUrl(fileName: string) {
+  const base = import.meta.env.BASE_URL;
+  const normalizedBase = base.endsWith("/") ? base : `${base}/`;
+  const normalizedFile = fileName.startsWith("/") ? fileName.slice(1) : fileName;
+  return `${normalizedBase}${normalizedFile}`;
 }
-
 
 function FlashcardPlayer({
   title,
